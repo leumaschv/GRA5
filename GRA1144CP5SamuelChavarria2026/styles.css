@@ -1,0 +1,53 @@
+@charset "UTF-8";
+body {
+    margin: 0;
+    background-color: #ccc;
+}
+wrapper {
+    display: block;
+    background-color: rgba(255,255,255,1.00);
+    margin: auto;
+    width: 1366px;
+}
+ul a li {
+    display: inline-block;
+    padding: 10px 25px;
+    color: white;
+}
+ul {
+    padding: 0;
+    margin: 0;
+}
+ul a li:hover  {
+    background-color: red;
+}
+main {
+    height: 1024px;
+    background-image: url(Benee-01-LQ.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+h1 {
+    padding: 20px;
+    margin: 0;
+    display: inline;
+}
+h2 {
+    padding: 20px;
+    margin: 0;
+    color: white;
+}
+footer {
+    padding: 20px;
+}
+nav {
+    background-color: black;
+}
+#news {
+    background-image: url(Benee-photo-by-Jorge-Rico.jpg);
+}
+.logo {
+    height: 150px;
+    width: auto;
+    vertical-align: middle;
+}
