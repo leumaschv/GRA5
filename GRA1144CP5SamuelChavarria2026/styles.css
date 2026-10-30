@@ -4,22 +4,23 @@ body {
     background-color: #ccc;
 }
 wrapper {
-    display: block;
-    background-color: rgba(255,255,255,1.00);
-    margin: auto;
-    width: 1366px;
+  display: block;
+  	background-color: rgba(23,23,23,1.00);
+  margin: auto;
+  width: 1366px;
 }
 ul a li {
-    display: inline-block;
-    padding: 10px 25px;
-    color: white;
+  display: inline-block;
+  padding: 10px 25px;
+  color: white;
 }
 ul {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
-ul a li:hover  {
-    background-color: red;
+ul a li:hover {
+  background-color: lawngreen;
+  color: black;
 }
 main {
     height: 1024px;
@@ -28,26 +29,80 @@ main {
     background-position: center center;
 }
 h1 {
-    padding: 20px;
-    margin: 0;
-    display: inline;
+  padding: 20px;
+  margin: 0;
+  display: inline;
 }
-h2 {
-    padding: 20px;
-    margin: 0;
-    color: white;
+h2, h3 {
+    font-family: "ByteSized", sans-serif;
+    padding: 10px 20px;
+    color: white;	
 }
 footer {
-    padding: 20px;
+  padding: 20px;
+	color: rgba(255,255,255,1.00);
+	font-size: 10px;
 }
 nav {
-    background-color: black;
+  font-family: "Rubik Iso", sans-serif;
+  background-color: black;
+}
+.logo{
+    width: 250px;
+    padding: 0px;
+    height: auto;
+	margin: auto;
 }
 #news {
-    background-image: url(Benee-photo-by-Jorge-Rico.jpg);
+  background-image: url(Benee-photo-by-Jorge-Rico.jpg);
 }
-.logo {
-    height: 150px;
+#store {
+  background-image: url(Post-3.jpg);
+}
+#privacy {
+    background-image: url(42e17804e7f0b183c0a4990c4a8289fb.png);
+}
+#videos {
+  background-image: url(benee-supalonely-music-video-2020-billboard-1548.png);
+	
+}
+#tour {
+  background-image: url(DSC03856-scaled.jpg);
+}
+#gallery {
+  background-image: url(BENEE_Credit-Harry-Were-8dc2505b2c944ce88b56fe128c53c76a.jpg);
+}
+#email {
+  background-image: url("Benee-press-by-Imogen-Wilson-2020-billboard-1548-1584551248.png");
+}
+#merch {
+  background-image: url(Benee-photo-by-Harry-Were.jpg);
+}
+#blog {
+    background-image: url(benee.2e16d0ba.fill-1920x1080.jpg);
+}
+#doesnt-matter {
+    width: 500px;
+    margin-left: 45px;
+    margin-top: 41px;
+}
+#goodgumnuts {
+    margin-left: 70px;
+    margin-top: 17px;
     width: auto;
-    vertical-align: middle;
+    height: 600px;
+}
+#emailinput {
+    margin-left: 20px;
+}
+#imagegrid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 16px;
+    width: 500px;
+	
+}
+#imagegrid img{
+	width: 100%;
+	height: auto;
 }
